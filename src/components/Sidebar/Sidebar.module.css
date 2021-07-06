@@ -1,0 +1,21 @@
+.sidebar {
+    grid-area: sidebar;
+    background: linear-gradient(135deg, black, aqua);
+    border-radius: 10px;
+}
+.item {
+    outline: none;
+    text-decoration: none;
+    width: 60.5%;
+    height: 10%;
+    margin: 10px 20% 10px ;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    background: linear-gradient(135deg, gray, aqua);
+    border-radius: 15px;
+
+}
+.item a.activeLink {
+    color: gold;
+}
